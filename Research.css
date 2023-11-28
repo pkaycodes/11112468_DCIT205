@@ -1,0 +1,88 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    left: -150px; 
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-nav ul li:first-child {
+    margin-left: 0;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+.header-nav ul li a:hover {
+    color: blue;
+}
+
+body {
+    margin: 0;
+}
+
+.buttons{
+    background-color: blue;
+    color: white;    
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+  
+.heads{
+    font-family: 'Lucida Sans';
+}
+
+.buttons:hover{
+    background-color: rgb(10, 10, 92);
+    cursor: pointer;
+}
+
+.footer-area {
+    background-color: #252350;
+    padding: 20px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #252350;
+}
+
+.footer-section a:hover {
+    text-decoration: none;
+}

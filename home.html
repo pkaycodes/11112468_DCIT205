@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div class = "header-content">
-                <img src = "comScience_logo.png" alt = "Department of Computer Science Logo" width = "300px" height = "50px">
-                <nav class="header-nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="programs.html">Programs</a></li>
-                    </ul>
-                </nav>
-            </div>
-            </header>
-        <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="home.html">
+                <img src="comScience_logo.png" alt="Computer Science Department Logo" width="300px" height="50px">
+            </a>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Faculty.html">Faculty</a></li>
+                    <li><a href="Research.html">Research Groups</a></li>
+                    <li><a href="contactUS.html">contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="feature-area">
+        <div class="title">
+            <h1>Department of Computer Science</h1>
+        </div>
+        <video autoplay="false" muted="" loop="" id="dcs-video" width="100%" height="67%" style="object-fit:cover" poster="/img/index-poster.jpg"><source src="video-bg.mp4" type="video/mp4">		
+            Your browser does not support HTML5 video.
+          </video>
+        <div class="container1">
             <div class="card">
-                <h1>Welcome to the Department of Computer Science!</h1>
-    </body>
+                <h2>Undergraduate Programmes</h2>
+                <p>Explore our wide range of undergraduate programs in computer science.</p>
+                <a href="undergraduate.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>MPhil and MSc programmes</h2>
+                <p>Learn about our MPhil and MSc programs that offer in-depth research opportunities.</p>
+                <a href="MPhil.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>Short Courses</h2>
+                <p>Discover our short courses designed to enhance specific skills in computer science.</p>
+                <a href="Short.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>PhD programmes</h2>
+                <p>Explore our PhD programs and pursue advanced research in computer science.</p>
+                <a href="PhD.html"><b class="read-more">Read More</b></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Academics</h4>
+                <ul>
+                    <li>
+                        <a href="undergraduate.html">Undergraduate Courses</a>
+                    </li>
+                    <li>
+                        <a href="graduateMPhil.html">Graduate Courses (MPhil Computer Science)</a>
+                    </li>
+                    <li>
+                        <a href="graduateMSc.html">Graduate Courses (PhD)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
